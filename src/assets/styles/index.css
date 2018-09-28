@@ -1,0 +1,19 @@
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+.cms-header {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.App-footer {
+  color: cadetblue;
+}
+.cms-sidebar {
+  width: 250px;
+  z-index: 1;
+  bottom: 0;
+  position: fixed;
+  transition: all 0.2s ease-out;
+  top: 0;
+}
